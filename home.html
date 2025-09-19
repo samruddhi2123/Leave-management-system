@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="text-center">
+    <h1 class="display-5 fw-bold">Welcome to Leave Management System</h1>
+    <p class="lead">Apply, track, and manage leaves easily.</p>
+    <a href="{% url 'signup' %}" class="btn btn-success btn-lg me-2">Student Signup</a>
+    <a href="{% url 'login' %}" class="btn btn-primary btn-lg">Login</a>
+</div>
+{% endblock %}
